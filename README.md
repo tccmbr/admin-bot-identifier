@@ -1,4 +1,4 @@
-# Descrição
+# Admin Bot Identifier
 
 Admin do projeto Bot Identifier. Permite visualizar e acessar os registros de acessos recebidos pela API.
 

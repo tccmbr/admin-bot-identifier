@@ -11,3 +11,6 @@
 - Adicionando tela de detalhes da sessão.
 - Adicionando rotas e integração com o serviço de dados do IP.
 - Adicionando integração com o serviço de identificação de bots.
+
+### 0.3.1
+- Adicionando melhorias no layout.
