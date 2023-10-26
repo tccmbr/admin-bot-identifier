@@ -6,3 +6,8 @@
 
 ### 0.2.0
 - Adicionando tela de listagem das sessões.
+
+### 0.3.0
+- Adicionando tela de detalhes da sessão.
+- Adicionando rotas e integração com o serviço de dados do IP.
+- Adicionando integração com o serviço de identificação de bots.

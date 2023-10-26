@@ -1,0 +1,23 @@
+export type DbIpLookupType = {
+  addr_type: string;
+  ip_start: string;
+  ip_end: string;
+  continent: string;
+  country: string;
+  stateprov_code: string;
+  stateprov: string;
+  district: string;
+  city: string;
+  zipcode: string;
+  latitude: number;
+  longitude: number;
+  geoname_id: number;
+  timezone_offset: number;
+  timezone_name: string;
+  weather_code: string;
+  isp_name: string;
+  as_number: number;
+  usage_type: string;
+  connection_type: string | null;
+  organization_name: string;
+};
