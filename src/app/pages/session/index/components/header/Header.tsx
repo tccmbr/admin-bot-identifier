@@ -1,9 +1,9 @@
-import { Divider, Typography } from '@mui/material';
+import { Divider, Stack, Typography } from '@mui/material';
 import SmartToyRoundedIcon from '@mui/icons-material/SmartToyRounded';
 
 export const Header = () => {
   return (
-    <>
+    <Stack component={'header'}>
       <Typography variant="h3">
         <SmartToyRoundedIcon
           sx={{
@@ -14,6 +14,6 @@ export const Header = () => {
         Identificador de Bot
       </Typography>
       <Divider />
-    </>
+    </Stack>
   );
 };

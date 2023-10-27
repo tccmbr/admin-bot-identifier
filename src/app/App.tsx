@@ -6,7 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 function App() {
   return (
     <BrowserRouter>
-      <Container maxWidth={false}>
+      <Container component={'main'} maxWidth={false}>
         <Grid
           container
           direction={'row'}
