@@ -35,6 +35,8 @@ export class TextField extends Component<ITextField> {
         autoComplete={this.props.autoComplete}
         type={this.props.type || 'text'}
         name={this.props.name}
+        aria-describedby={this.props.label}
+        title={this.props.label}
       />
     );
   }
